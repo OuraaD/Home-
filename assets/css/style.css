@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f0;
+  background-color: #d8c8a62f;
   color: #333;
 }
 
@@ -204,16 +204,17 @@ form button:hover {
   background-color: #555;
 }
 .bottom {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-size: 20px;
   text-align: center;
   font-size: 24px;
   margin-top: 20px;
+  color: #333;
 }
 
-hr {
-  margin-top: 20px;
-}
-
-.categorie {
+.categorie , hr {
   margin-top: 20px;
 }
 
@@ -225,8 +226,7 @@ hr {
   margin-bottom: 10px;
 }
 footer {
-  background-color: #f8f8f0;
-  color: #000000;
+  color: #333;
   text-align: center;
   padding: 20px 0;
 }
